@@ -1,8 +1,17 @@
-seg = input("Entre com os segundos que deseja converter: ")
-tseg = int(seg)
-hor = tseg // 3600
-sgsRes = tseg % 3600
-min = sgsRes //60
-segResFin = sgsRes %60
+seg = input("Digite a quantidade de segundos que deseja converter:")
+segTot = int(seg)
+a = segTot // 86400
+segRes = segTot % 86400
 
-print(f" {hor} horas, {min} minutos e {segResFin} segundos")
+b = segRes // 3600
+segRes = segTot % 3600
+
+c = segRes // 60
+segRes = segTot % 60
+
+d = segRes
+
+
+
+print(f" A Conversão de {segTot} segundos ficará :")
+print(f"{a} dias , {b} horas, {c} minutos e {d} segundos ")

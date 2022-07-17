@@ -1,0 +1,6 @@
+ncli = input("digite o nome do Cliente: ")
+dvenc = input("Digite o dia de vencimento: ")
+mvenc = input("Digite o Mês de vencimento: ")
+valor = input("Digite o valor da fatura: ")
+print(f"Olá, {ncli}")
+print(f"A sua fatura com vencimento em {dvenc} de {mvenc} no valor de R${valor},00 está fechada")
